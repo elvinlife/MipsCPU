@@ -1,0 +1,2 @@
+SETPROJECT "C:/Users/Elvin/Desktop/cpu_pipeline/ipcore_dir/coregen.cgp"
+LAUNCHXCO "C:/Users/Elvin/Desktop/cpu_pipeline/ipcore_dir/DRAM.xco"

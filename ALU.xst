@@ -1,0 +1,5 @@
+set -tmpdir "C:/cpu_pipeline/xst/projnav.tmp"
+set -xsthdpdir "C:/cpu_pipeline/xst"
+elaborate
+-ifn ALU.prj
+-ifmt mixed

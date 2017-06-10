@@ -1,0 +1,58 @@
+Running: C:\Xilinx\12.3\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Elvin/Desktop/cpu_pipeline/test_isim_beh.exe -prj C:/Users/Elvin/Desktop/cpu_pipeline/test_beh.prj work.test work.glbl 
+ISim M.70d (signature 0x36e8438f)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ipcore_dir/IRRAM.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/REG_FILE.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ipcore_dir/DRAM.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ControlUnit.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/BrUnit.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ALU.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/PredictUnit.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/MEM_WB.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/MEM.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/IF_ID.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/IF.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ID_EX.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/ID.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/HazardUnit.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/EXE_MEM.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/EXE.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/cpu.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/top.v\" into library work
+Analyzing Verilog file \"C:/Users/Elvin/Desktop/cpu_pipeline/test.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.3/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Elvin/Desktop/cpu_pipeline/MEM.v" Line 31: Port dpra is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 150620 KB
+Fuse CPU Usage: 374 ms
+Compiling module DIST_MEM_GEN_V5_1(C_FAMILY="spar...
+Compiling module IRRAM
+Compiling module IF
+Compiling module PredictUnit
+Compiling module IF_ID
+Compiling module REG_FILE
+Compiling module ControlUnit
+Compiling module BrUnit
+Compiling module ID
+Compiling module ID_EX
+Compiling module ALU
+Compiling module EXE
+Compiling module EXE_MEM
+Compiling module DIST_MEM_GEN_V5_1(C_FAMILY="spar...
+Compiling module DRAM
+Compiling module MEM
+Compiling module MEM_WB
+Compiling module HazardUnit
+Compiling module CPU
+Compiling module top
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable C:/Users/Elvin/Desktop/cpu_pipeline/test_isim_beh.exe
+Fuse Memory Usage: 157220 KB
+Fuse CPU Usage: 593 ms
