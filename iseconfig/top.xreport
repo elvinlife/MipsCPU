@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-06-02T13:42:15</DateModified>
+  <DateModified>2017-11-30T15:01:10</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>2017-06-01T20:49:34</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Elvin/Desktop/cpu_pipeline/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Elvin/Desktop/cpu_pipeline\</ImplementationReportsDirectory>
+  <SavedFilePath>Y:/Subject/digital/MipsCPU/iseconfig/top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>Y:/Subject/digital/MipsCPU\</ImplementationReportsDirectory>
   <DateInitialized>2017-06-02T10:12:55</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
