@@ -73,8 +73,6 @@ wire JRD;
 wire ClearD;
 wire BrTrueD;
 
-wire [31:0] PCPredictF;
-wire PreBr;
 
 wire [31:0] RD1E;
 wire [31:0] RD2E;
@@ -108,8 +106,6 @@ IF if_(
 	.StallF(StallF),
 	.PCJumpD(PCJumpD),
 	.JRD(JRD),
-	.PCPredictF(PCPredictF),
-	.PreBr(PreBr),
 	.JumpD(JumpD),
 	.PCJRD(RD1D),
 	.InstrF(InstrF),
@@ -124,8 +120,6 @@ PredictUnit predict_unit(
 	.BrTrueD(BrTrueD),
 	.InstrF(InstrF),
 	.PCBranchD(PCBranchD),
-	.PCPredictF(PCPredictF),
-	.PreBr(PreBr)
 );
 
 
