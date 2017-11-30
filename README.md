@@ -1,4 +1,4 @@
-#mipscpu
+##mipscpu
 This is source code of the pipeline cpu written in verilog.
 
 ### Supported instructions:
@@ -20,6 +20,9 @@ This is source code of the pipeline cpu written in verilog.
 * Use [**MARS(a mips simulator)**](http://courses.missouristate.edu/KenVollmar/mars/) to dump the mips assembler code into hexadecimal machine code. 
 
   <img src="figs/fig0.png" width="300">
+
+  ​
+
   You need to get the text segment code and data segment code.
 
   <img src="figs/fig1.png" width="600">
