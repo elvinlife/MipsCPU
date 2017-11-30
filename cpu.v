@@ -113,16 +113,6 @@ IF if_(
 	.PCF(PCF)
 	);
 
-PredictUnit predict_unit(
-	.clk(clk),
-	.rst_n(rst_n),
-	.PCSrcD(PCSrcD),
-	.BrTrueD(BrTrueD),
-	.InstrF(InstrF),
-	.PCBranchD(PCBranchD),
-);
-
-
 IF_ID if_id(
 	.clk(clk),
 	.rst_n(rst_n),
