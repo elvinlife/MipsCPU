@@ -8,38 +8,23 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
-<msg type="error" file="coreutil" num="0" delta="new" >ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
-   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
-ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
-   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+<msg type="error" file="coreutil" num="0" delta="new" >ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
+   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
+ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
+   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
 ERROR:sim:781 - An invalid core configuration has been detected during
    Customization. Core parameters will be reset to their default values.
 WARNING:sim:192 - Xco Parameter changed from (depth,128) to (depth,64) during
    Recustomization.
 WARNING:sim:192 - Xco Parameter changed from (data_width,32) to (data_width,16)
    during Recustomization.
-WARNING:sim:192 - Xco Parameter changed from (component_name,DRAM) to
+WARNING:sim:192 - Xco Parameter changed from (component_name,IRRAM) to
    (component_name,dist_mem_gen_v5_1) during Recustomization.
-WARNING:sim:192 - Xco Parameter changed from (memory_type,dual_port_ram) to
+WARNING:sim:192 - Xco Parameter changed from (memory_type,rom) to
    (memory_type,single_port_ram) during Recustomization.
 WARNING:sim:192 - Xco Parameter changed from
-   (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsdram.coe) to
+   (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsiram.coe) to
    (coefficient_file,no_coe_file_loaded) during Recustomization.
-</msg>
-
-<msg type="warning" file="sim" num="89" delta="new" >A core named &lt;<arg fmt="%s" index="1">dist_mem_gen_v5_1</arg>&gt; already exists in the output directory. Output products for this core may be overwritten.
-</msg>
-
-<msg type="warning" file="coreutil" num="0" delta="new" >WARNING: Default charset GBK not supported, using ISO-8859-1 instead
-</msg>
-
-<msg type="warning" file="sim" num="192" delta="new" >Xco Parameter changed from (<arg fmt="%s" index="1">coefficient_file</arg>,<arg fmt="%s" index="2">Y:/Subject/digital/MipsCPU/dram_init.coe</arg>) to (<arg fmt="%s" index="3">coefficient_file</arg>,<arg fmt="%s" index="4">Y:\Subject\digital\MipsCPU\dram_init.coe</arg>) during Recustomization.
-</msg>
-
-<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
-</msg>
-
-<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
 </msg>
 
 </messages>
