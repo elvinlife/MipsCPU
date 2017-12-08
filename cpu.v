@@ -20,7 +20,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 module CPU(
 	input clk,
-	input rst_n
+	input rst_n,
+	input if_end,
+	input [6:0] address,
+	output [31:0] data
 	);
 
 wire RegWriteD;
@@ -97,6 +100,8 @@ wire [4:0] WriteRegW;
 
 wire [31:0] ResultW;
 assign ResultW = MemtoRegW ? ReadDataW : ALUOutW;
+
+assign data = if_end ? ReadDataM : 0;
 
 IF if_(
 	.clk(clk),
@@ -238,6 +243,8 @@ MEM mem(
 	.MemWriteM(MemWriteM),
 	.ALUOutM(ALUOutM),
 	.WriteDataM(WriteDataM),
+	.if_end(if_end),
+	.address(address),
 	.ReadDataM(ReadDataM)
 	);
 

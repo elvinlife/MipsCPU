@@ -8,22 +8,24 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
-<msg type="error" file="coreutil" num="0" delta="new" >ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
+<msg type="error" file="coreutil" num="0" delta="new" >ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+   Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
 ERROR:sim:781 - An invalid core configuration has been detected during
    Customization. Core parameters will be reset to their default values.
-WARNING:sim:192 - Xco Parameter changed from (depth,128) to (depth,64) during
+</msg>
+
+<msg type="warning" file="coreutil" num="0" delta="new" >WARNING:sim:192 - Xco Parameter changed from (depth,128) to (depth,64) during
    Recustomization.
 WARNING:sim:192 - Xco Parameter changed from (data_width,32) to (data_width,16)
    during Recustomization.
-WARNING:sim:192 - Xco Parameter changed from (component_name,IRRAM) to
+WARNING:sim:192 - Xco Parameter changed from (component_name,DRAM) to
    (component_name,dist_mem_gen_v5_1) during Recustomization.
-WARNING:sim:192 - Xco Parameter changed from (memory_type,rom) to
+WARNING:sim:192 - Xco Parameter changed from (memory_type,dual_port_ram) to
    (memory_type,single_port_ram) during Recustomization.
 WARNING:sim:192 - Xco Parameter changed from
-   (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsiram.coe) to
+   (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsdram.coe) to
    (coefficient_file,no_coe_file_loaded) during Recustomization.
 </msg>
 

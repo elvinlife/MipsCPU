@@ -20,8 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 module top(
 	input clk,
-	input rst_n
+	input rst_n,
+	input [6:0] address,
+	input if_end,
+	output [7:0] sel,
+	output [3:0] choose
 	);
-CPU cpu(clk, rst_n);
+wire [31:0] data;
+CPU cpu(clk, rst_n, if_end, address, data);
+SHOW show(clk, rst_n, data[15:0], sel, choose);
 
 endmodule

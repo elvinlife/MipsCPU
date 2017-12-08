@@ -6,23 +6,24 @@ Qt: Untested Windows version 6.2 detected!
 Release 14.7 - Xilinx CORE Generator IP GUI Launcher P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 ERROR:coreutil - ERROR:sim - Unable to find
-   C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-      Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-   ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
-      Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsiram.coe
+   C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+      Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+   ERROR:sim - Unable to find C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
+      Coregen is looking for C:\Users\Elvin\Desktop\pipeline\fibsdram.coe
    ERROR:sim:781 - An invalid core configuration has been detected during
       Customization. Core parameters will be reset to their default values.
-   WARNING:sim:192 - Xco Parameter changed from (depth,128) to (depth,64) during
+WARNING:coreutil - WARNING:sim:192 - Xco Parameter changed from (depth,128) to
+   (depth,64) during
       Recustomization.
    WARNING:sim:192 - Xco Parameter changed from (data_width,32) to
    (data_width,16)
       during Recustomization.
-   WARNING:sim:192 - Xco Parameter changed from (component_name,IRRAM) to
+   WARNING:sim:192 - Xco Parameter changed from (component_name,DRAM) to
       (component_name,dist_mem_gen_v5_1) during Recustomization.
-   WARNING:sim:192 - Xco Parameter changed from (memory_type,rom) to
+   WARNING:sim:192 - Xco Parameter changed from (memory_type,dual_port_ram) to
       (memory_type,single_port_ram) during Recustomization.
    WARNING:sim:192 - Xco Parameter changed from
-      (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsiram.coe) to
+      (coefficient_file,C:\Users\Elvin\Desktop\pipeline\fibsdram.coe) to
       (coefficient_file,no_coe_file_loaded) during Recustomization.
 Cancelled Customization.
-Wrote CGP file for project 'IRRAM'.
+Wrote CGP file for project 'DRAM'.

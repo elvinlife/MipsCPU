@@ -23,10 +23,12 @@ module MEM(
 	input MemWriteM,
 	input [31:0] ALUOutM,
 	input [31:0] WriteDataM,
+	input if_end,
+	input [6:0] address,
 	output [31:0] ReadDataM
 	);
 wire [6:0] DramA;
-assign DramA = ALUOutM >> 2;
+assign DramA = if_end ? address : ALUOutM >> 2;
 
 DRAM dram(
 	.a(DramA),
