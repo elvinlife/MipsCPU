@@ -22,11 +22,24 @@ module top(
 	input clk,
 	input rst_n,
 	input [6:0] address,
-	input if_end,
+	input in,
 	output [7:0] sel,
 	output [3:0] choose
 	);
 wire [31:0] data;
+wire op;
+reg if_end;
+
+always @(posedge op or negedge rst_n) begin
+	if (!rst_n) begin
+		if_end <= 0;
+	end
+	else begin
+		if_end <= 1;
+	end
+end
+
+SRESIST sresist(clk, in, op);
 CPU cpu(clk, rst_n, if_end, address, data);
 SHOW show(clk, rst_n, data[15:0], sel, choose);
 
