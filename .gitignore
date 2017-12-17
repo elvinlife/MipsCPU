@@ -67,3 +67,6 @@ _ngo/
 _xmsgs/
 isim/
 isim.log
+#
+cpu_pipeline.gise
+cpu_pipeline.xise
